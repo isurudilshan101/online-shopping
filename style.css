@@ -1,0 +1,314 @@
+#wrapper 
+{
+	font-family:tahoma;
+}
+.container
+{
+	width:100%;
+	max-width:1280px;
+	margin:0 auto;
+
+}
+#subheader{
+	width:100%;
+	height:60px;
+	background:#0a9a;
+	color:black;
+	margin-top:-15px;
+
+}
+#subheader p{
+	float:left;
+	margin-top:-5 px;
+}
+.container a{
+	float:right;
+	line-height:30px;
+	color:white;
+	
+}
+body{
+	background: white;
+}
+
+#main-header{
+	width:100%;
+	height:100px;
+	background:#1aaa1a;
+	float:left;
+}
+#subheader a{
+	text-decoration:none;
+}
+#logo
+{
+	width:250px;
+	margin-top:10px;
+	float:left;
+
+}
+#ist
+{
+	color:black;
+	font-size:45px;
+	font-weight:bold;
+	margin-left:15px;
+	font-family:cursive;
+}
+.iist
+{
+	color:black;
+	font-size:3 5px;
+	font-weight:bold;
+	margin-left:15px;
+	font-family:cursive;
+}
+/*searching area styiling*/
+.search
+{
+	width:100px;
+	float:center;
+	padding:20px;
+	margin-left:50px;
+}
+.search-area
+{
+	width:650px;
+	height:50px;
+	background:#fff;
+	border:none;
+	border-radius:10px;
+	float:left;
+	padding-left:15px;	
+}
+.search-btn
+{
+	width:100px;
+	height:50px;
+	border-radius:10px;
+	border:none;
+	color:#fff;
+	background:brown;
+	margin-left: -100px;
+}
+/*this is for user menu styling*/
+#user-menu
+{
+	width:300px;
+	float:right;
+	margin-top:-35px;
+}
+/*this is for list styling*/
+#user-menu li
+{
+	float:left;
+	width:140px;
+	list-style:none;
+	text-align: none;
+	font-size: 25px;
+	border-left:1px solid black;
+}
+#user-menu li:hover
+{
+	font-size:30px;
+	transition:all.5s ease;  
+}
+#user-menu li a
+{
+	color:black;
+	text-decoration:none;
+}
+/*this style for navigaation bar*/
+#navigation
+{
+	width:100%;
+	height:35px;
+	background:#1aaa1a;
+	float:left;
+	box-shadow: 10px 14px 60px 2px BLUE;
+}
+nav 
+{
+	width:1280px;
+	margin:0 auto;
+}
+nav a
+{
+	margin-left:35px;
+	color:black;
+	text-decoration: none;
+}
+nav a:hover
+{
+	color:blue;
+	transition: all.7s ease;
+}
+#slider li img
+{
+	width: 100%;
+	height:400;
+	float:left;
+	overflow: hidden;
+}
+
+.bx-wrapper .bx-viewport
+{margin-top:20px;
+}
+.bx-wrapper .bx-pager, .bx-wrapper .bx-controls-auto
+{
+	bottom:30px;
+}
+.bx-wrapper .bx-pager .bx-default-pager a 
+{
+	width:15px;
+	height:15px;
+	border-radius:20px;
+}
+/*==category heading==*/
+#heading-block
+{
+	width: 100%;
+	height:auto;
+	float:left;
+	color: blue;
+	font-size:22px;
+}
+#heading-block h2
+{
+	line-height:35px;
+	border-left:20px solid blue;
+	padding-left: 10px 
+}
+/*======category boxes=====*/
+.catbox
+{
+	width:235px;
+	height:235px;
+	float:left;
+	overflow:hidden;
+	position:relative;
+	margin:0 15 30 0;
+}
+.catbox span
+{
+	width:100%;
+	background: rgba(0,0,0,0.6);
+	color:blue;
+	display:block;
+	bottom:30px;
+	position:absolute;
+	z-index: 999;
+	text-align: center;
+}
+ .catbox:hover span
+ {
+ 	color: yellow;
+ }
+.catbox img   
+
+{
+	max-width: 100%;
+	transition: all.5s ease;
+}
+.catbox:hover img
+{ 
+	transform:scale(1.3,1.3);
+	transition: all .5s ease;
+}
+/*this is for products styling*/
+.prod-box
+{
+	width:235px;
+	height:235px;
+	overflow: hidden;
+	margin:0 18 30 0;
+	position: relative;
+	float:left;
+}
+.prod-box img
+{
+	width:235px;
+}
+.prod-trans
+{
+	background: rgba(0,0,0,0.6);
+	width:235px;
+	height:235px;
+	top:0;
+	left: 0;
+	bottom: 0;
+	right:0;
+	position:absolute;
+	opacity:0;
+	transition:all .5s ease;
+}  
+.prod-box:hover .prod-trans
+{
+	opacity:1;
+} 
+.prod-feature{
+	text-align: center;
+	margin-top: -150px;
+ 	transition: all .5s ease;
+
+
+}
+.prod-feature p
+{
+	color:#00eb00;
+	font-family: verdana;
+}
+
+.prod-box:hover .prod-feature
+{
+	margin-top:150;
+	transition: all .5s ease;
+}
+.prod-feature input
+{
+	width:150px;
+	height: 35px;
+	font-size: 17px;
+}
+.offer
+{
+	width: 400px;
+	float:left;
+	margin-right: 10px;
+}
+
+.offer img
+{
+	width:400px;
+	height: 100px;
+}
+#footer
+{
+	width:100%;
+	height:auto ;
+	background: #f5f5f5;
+	float:left;
+
+}
+.footer_sub
+{
+	width:25%; 
+	float: left; 
+}
+.footer-sub-2
+{
+	width: 20%;
+	float:left; 
+}
+.footer_sub_2 ul li
+{
+	list-style:none;
+	
+}
+.footer span{
+	color: black;
+}
+.alink{
+	
+	background: black;
+}
